@@ -1,0 +1,33 @@
+2.1 completed successfully.
+The lesson to learn here was using app.use(express.static('public')); to direct express to an index.js located in the 'public' folder.
+
+
+2.2 completed successfully.
+Basically covered the navigator
+        if ("geolocation" in navigator) {
+            console.log("GL available");
+            navigator.geolocation.getCurrentPosition(position => {
+                const lat = position.coords.latitude;
+                const lon = position.coords.longitude;
+                document.getElementById('latitude').textContent = lat
+                document.getElementById('longitude').textContent = lon
+                console.log(position);
+            });
+        } 
+
+2.3 completed successfully and was a lot of expressery bullshit
+
+An interesting suggestion at the end of this video was using Node fileSystem as data persistence.
+
+
+2.4 completed successfully
+Youtube channel called socratica recommended for SQL
+Claims there is a video in description on using filesystem, should probably find that.
+
+database.insert({name: 'Sheefmahn', status: '🔥'});
+database.insert({name: 'Daniel', status: '🏝️'});
+
+
+2.5 completed successfully.
+
+
